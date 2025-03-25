@@ -59,9 +59,10 @@ Response when a task with a given ID does not exist.
   ![image](https://github.com/user-attachments/assets/6e2e2a0b-3a91-4b2b-b302-b539902b0736)
 
 
-### 4. Post (Create/Update Task)  
+### 4. POST method  
 Send a JSON payload to create or update a task.  
-![image](https://github.com/user-attachments/assets/ccc3dd4e-78ca-4270-b157-8f75da1e970e)
+![image](https://github.com/user-attachments/assets/6e4c0f66-98e5-468e-9e5e-e0223e2a05c0)
+
 
 
 ### 5. DELETE a task  
