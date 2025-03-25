@@ -30,13 +30,44 @@ This is a Java backend REST API built with Spring Boot and MongoDB. It provides 
    ```sh
    mvn clean install
 
-3.Start the MongoDB server (if not running):
+3. Start the MongoDB server (if not running):
    ```sh
    mongod --dbpath /your/mongodb/data/path
 
 4. Run the Spring Boot application:
    ```sh
    mvn spring-boot:run
+
+## Screenshots  
+
+### 1. GET all tasks  
+Fetch all tasks from the database.  
+![GET all tasks](screenshots/GET%20method.jpg)  
+
+### 2. GET task by ID  
+Fetch a specific task by its ID.  
+![GET task by ID](screenshots/GET%20Task%20by%20ID.png)  
+
+### 3. GET task not found  
+Response when a task with a given ID does not exist.  
+![GET task not found](screenshots/GET%20not%20found.png)  
+
+### 4. PUT (Create/Update Task)  
+Send a JSON payload to create or update a task.  
+![PUT Task](screenshots/POST%20method.png)  
+
+### 5. DELETE a task  
+Delete a task by ID.  
+![DELETE Task](screenshots/DELETE%20method.png)  
+
+### 6. Search tasks by name  
+Find tasks based on a name search query.  
+![GET task by NAME](screenshots/GET%20task%20by%20NAME.png)  
+
+### 7. Execute a task command  
+Run a shell command for a task execution.  
+![PUT Task Execution](screenshots/PUT%20Task%20Execute.png)  
+
 
 5. The server should now be running at:
    ```sh
