@@ -51,27 +51,32 @@ Fetch all tasks from the database.
 
 ### 2. GET task by ID  
 Fetch a specific task by its ID.  
-![GET task by ID](Screenshots/GET_Task_by_ID.png)  
+  ![image](https://github.com/user-attachments/assets/870b0b45-1f04-46da-9af2-240b51f30891)
+
 
 ### 3. GET task not found  
 Response when a task with a given ID does not exist.  
-![GET task not found](Screenshots/GET_not_found.png)  
+  ![image](https://github.com/user-attachments/assets/6e2e2a0b-3a91-4b2b-b302-b539902b0736)
 
-### 4. PUT (Create/Update Task)  
+
+### 4. Post (Create/Update Task)  
 Send a JSON payload to create or update a task.  
-![PUT Task](Screenshots/POST_method.png)  
+![image](https://github.com/user-attachments/assets/ccc3dd4e-78ca-4270-b157-8f75da1e970e)
+
 
 ### 5. DELETE a task  
 Delete a task by ID.  
-![DELETE Task](Screenshots/DELETE_method.png)  
+ ![image](https://github.com/user-attachments/assets/f6b27b45-22a7-40b5-9a61-575b3b4f5364)
+
 
 ### 6. Search tasks by name  
 Find tasks based on a name search query.  
-![GET task by NAME](Screenshots/GET_task_by_NAME.png)  
+![image](https://github.com/user-attachments/assets/b260ff19-533b-4b04-8882-ae7a489ce45d)
+
 
 ### 7. Execute a task command  
 Run a shell command for a task execution.  
-![PUT Task Execution](Screenshots/PUT_Task_Execute.png)  
+![image](https://github.com/user-attachments/assets/6b9580a9-881b-4c6e-b285-23ea212d5309)
 
 
 
