@@ -33,7 +33,7 @@ This is a Java backend REST API built with Spring Boot and MongoDB. It provides 
 ## Screenshots
 
 ### 1. GET /tasks - Fetch All Tasks
-![GET Tasks](screenshots/GET_method.jpg)
+![GET Tasks](screenshots/GET method.jpg)
 
 ### 2. GET /tasks/{id} - Fetch Task by ID
 - If found:
