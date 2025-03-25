@@ -30,8 +30,16 @@ This is a Java backend REST API built with Spring Boot and MongoDB. It provides 
    ```sh
    mvn clean install
 
-4. Run the application:
-   ```sh
-   mvn spring-boot:run
+## Screenshots
 
-6. Test using Postman or curl.
+### 1. GET /tasks - Fetch All Tasks
+![GET Tasks](screenshots/GET_method.jpg)
+
+### 2. GET /tasks/{id} - Fetch Task by ID
+- If found:
+  ![GET Task by ID](screenshots/GET_Task_by_ID.png)
+- If not found:
+  ![GET Task Not Found](screenshots/GET_not_found.png)
+
+### 3. GET /tasks/findByName?name=xyz - Search Task by Name
+![GET Task by Name](screenshots/GET`_task_by_NAME.png)
