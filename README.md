@@ -25,12 +25,14 @@ This is a Java backend REST API built with Spring Boot and MongoDB. It provides 
    ```sh
    git clone https://github.com/YOUR_GITHUB_USERNAME/TaskManager-SpringBoot-MongoDB.git
    cd TaskManager-SpringBoot-MongoDB
-Install dependencies:
 
-2. Install Dependencies
+
+2. Install Dependencies:
+   ```sh
 mvn clean install
 
-3. Run the application:
+4. Run the application:
+   ```sh
 mvn spring-boot:run
 
-4. Test using Postman or curl.
+6. Test using Postman or curl.
