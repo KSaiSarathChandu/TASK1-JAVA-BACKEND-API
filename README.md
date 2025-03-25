@@ -38,40 +38,42 @@ This is a Java backend REST API built with Spring Boot and MongoDB. It provides 
    ```sh
    mvn spring-boot:run
 
+5. The server should now be running at:
+   ```sh
+   http://localhost:8080
+
 ## Screenshots  
 
 ### 1. GET all tasks  
 Fetch all tasks from the database.  
-![GET all tasks](screenshots/GET%20method.jpg)  
+![GET all tasks](screenshots/GET_method.jpg)  
 
 ### 2. GET task by ID  
 Fetch a specific task by its ID.  
-![GET task by ID](screenshots/GET%20Task%20by%20ID.png)  
+![GET task by ID](screenshots/GET_Task_by_ID.png)  
 
 ### 3. GET task not found  
 Response when a task with a given ID does not exist.  
-![GET task not found](screenshots/GET%20not%20found.png)  
+![GET task not found](screenshots/GET_not_found.png)  
 
 ### 4. PUT (Create/Update Task)  
 Send a JSON payload to create or update a task.  
-![PUT Task](screenshots/POST%20method.png)  
+![PUT Task](screenshots/POST_method.png)  
 
 ### 5. DELETE a task  
 Delete a task by ID.  
-![DELETE Task](screenshots/DELETE%20method.png)  
+![DELETE Task](screenshots/DELETE_method.png)  
 
 ### 6. Search tasks by name  
 Find tasks based on a name search query.  
-![GET task by NAME](screenshots/GET%20task%20by%20NAME.png)  
+![GET task by NAME](screenshots/GET_task_by_NAME.png)  
 
 ### 7. Execute a task command  
 Run a shell command for a task execution.  
-![PUT Task Execution](screenshots/PUT%20Task%20Execute.png)  
+![PUT Task Execution](screenshots/PUT_Task_Execute.png)  
 
 
-5. The server should now be running at:
-   ```sh
-   http://localhost:8080
+
 
 
 
