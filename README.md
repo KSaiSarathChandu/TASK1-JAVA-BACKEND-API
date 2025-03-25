@@ -50,7 +50,7 @@ Fetch all tasks from the database.
 
 ### 2. GET task by ID  
 Fetch a specific task by its ID.  
-![GET task by ID](Screenshots/GET_Task_by_ID.png)  
+![GET task by ID](Screenshots/GET Task by ID.png)  
 
 ### 3. GET task not found  
 Response when a task with a given ID does not exist.  
