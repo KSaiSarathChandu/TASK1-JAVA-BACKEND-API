@@ -46,31 +46,31 @@ This is a Java backend REST API built with Spring Boot and MongoDB. It provides 
 
 ### 1. GET all tasks  
 Fetch all tasks from the database.  
-![GET all tasks](screenshots/GET_method.jpg)  
+![GET all tasks](Screenshots/GET_method.jpg)  
 
 ### 2. GET task by ID  
 Fetch a specific task by its ID.  
-![GET task by ID](screenshots/GET_Task_by_ID.png)  
+![GET task by ID](Screenshots/GET_Task_by_ID.png)  
 
 ### 3. GET task not found  
 Response when a task with a given ID does not exist.  
-![GET task not found](screenshots/GET_not_found.png)  
+![GET task not found](Screenshots/GET_not_found.png)  
 
 ### 4. PUT (Create/Update Task)  
 Send a JSON payload to create or update a task.  
-![PUT Task](screenshots/POST_method.png)  
+![PUT Task](Screenshots/POST_method.png)  
 
 ### 5. DELETE a task  
 Delete a task by ID.  
-![DELETE Task](screenshots/DELETE_method.png)  
+![DELETE Task](Screenshots/DELETE_method.png)  
 
 ### 6. Search tasks by name  
 Find tasks based on a name search query.  
-![GET task by NAME](screenshots/GET_task_by_NAME.png)  
+![GET task by NAME](Screenshots/GET_task_by_NAME.png)  
 
 ### 7. Execute a task command  
 Run a shell command for a task execution.  
-![PUT Task Execution](screenshots/PUT_Task_Execute.png)  
+![PUT Task Execution](Screenshots/PUT_Task_Execute.png)  
 
 
 
