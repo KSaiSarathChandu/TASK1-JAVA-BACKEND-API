@@ -46,7 +46,8 @@ This is a Java backend REST API built with Spring Boot and MongoDB. It provides 
 
 ### 1. GET all tasks  
 Fetch all tasks from the database.  
-![GET all tasks](Screenshots/GET_method.jpg)  
+ ![image](https://github.com/user-attachments/assets/54c20971-ec49-479e-869a-9a99ba67cd65)
+ 
 
 ### 2. GET task by ID  
 Fetch a specific task by its ID.  
